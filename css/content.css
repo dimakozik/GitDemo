@@ -1,0 +1,35 @@
+.sales{
+    width: 770px;
+}
+.sales .sales-img{
+    height: 420px;
+    border: 2px solid;
+    overflow: hidden;
+    position: relative;
+}
+.sales .sales-img img{
+    width: 100%;
+}
+.sales .sales-img .mask{
+    background-color: rgba(0, 0, 0, .65);
+    /* opacity: 0.65; */
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sales .sales-img .mask .mask-child{
+    background-color: rgba(0, 0, 0, .65);
+    height: 50px;
+}
+.sales .sales-img .mask .mask-child .cal:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* координаты картинки */
+}
+.sales .sales-img .mask .mask-child .cal:after{
+    content: "vbmvbvnb";
+}

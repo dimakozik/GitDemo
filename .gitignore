@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lessfourcss.css">
+</head>
+<body>
+    <header>
+        <div class="bg">
+        <div class="header-top content">
+            <div class="del">
+                <a href="#">Доставка</a> в Ивано-Франковск: Новая почта завтра до 19:00
+                
+            </div>
+            <div class="tel">
+                 <ul>
+                     <li><a href="#">044 229-81-38</a></li>
+                    <li><a href="#">0800 21-50-15</a></li>
+                    <span>беcплатно по Украине</span>
+                    <li><a href="#">Наши магазины</a></li>
+                 </ul>
+            </div>
+            <div class="about">
+                <ul>
+                    <li><a href="#" class="garant">Гарантия оригинала</a></li>
+                    <li><a href="#">Полезно знать</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="header-center content">
+            <a href="lessfour.html" class="logo"></a>
+            <form class="header-form">
+                <input type="search" placeholder="поиск по товару, артикулу, бренду">
+                <button type="submit"></button>
+
+            </form>
+        </div>
+    </header>  
+    <nav>
+        <ul class="content">
+            <li>
+                <a href="#">Женская парфюмерия</a>
+                <ul class="drop-down">
+                    <li>
+                        <a href="#"sun-menu-1>main-drop-1</a>
+                        <ul class="drop-down-2">
+                            <li>
+                                <a href="#">drop-1</a>
+                            </li>
+                            <li>
+                                <a href="#">drop-2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"sun-menu-2>main-drop-2</a>
+                        <ul class="drop-down-2">
+                            <li>
+                                <a href="#">drop-1</a>
+                            </li>
+                            <li>
+                                <a href="#">drop-2</a>
+                            </li>
+                         </ul>
+                    </li>
+                    <li>
+                        <a href="#"sun-menu-3>main-drop-3</a>
+                        <ul class="drop-down-2">
+                            <li>
+                                <a href="#">drop-1</a>
+                            </li>
+                            <li>
+                                <a href="#">drop-2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Мужская парфюмерия</a>
+            </li>
+            <li>
+                <a href="#">Косметика </a>
+            </li>
+            <li>
+                <a href="#">Мой Ла Бутик</a>
+            </li>
+            <li>
+                <a href="#">Скидки</a>
+                <ul class="drop-down">
+                    <li>
+                        <a href="#"sun-menu-1>main-drop-1</a>
+                    </li>
+                    <li>
+                        <a href="#"sun-menu-2>main-drop-1</a>
+                    </li>
+                    <li>
+                        <a href="#"sun-menu-3>main-drop-1</a>
+                    </li>
+                 </ul>
+            </li>
+        </ul>
+    </nav>
+    <section class="content">
+        <!-- секшин должен иметь н1 -->
+        <h1>Акции и специальные предложения</h1>
+        <ul>
+            <li><a href=""></a></li>
+        </ul>
+        <div class="page-content">
+        <div class="sales">
+            <figure class="sales-img">
+                <img src="img/img-1.jpg" alt="">
+               <figcaption class="mask">
+                   <p>Lorem ipsum,
+                   dolor sit amet consectetur adipisicing elit. 
+                   Aliquid, ullam. Lorem ipsum,
+                   dolor sit amet consectetur adipisicing elit. 
+                   Aliquid, ullam.       
+                   </p>  
+                   <ul class="mask-child">
+                       <li>
+                          <a href="#" class="cal">до 18 октября</a>
+                       </li>
+                   </ul>   
+                </figcaption>
+            </figure>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+@import 'header.css';
+@import 'nav.css';
+@import 'content.css';
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    /* text-decoration: underline; */
+    text-decoration: none;
+}
+input{
+    border: none;
+    /* задали что бы у всех небыло обводки */
+}
+input:focus{
+    outline: none;
+}
+input[type="search"]::-webkit-search-cancel-button{
+    appearance: none;
+    -webkit-appearance: none;
+    /* удалили крестик в поиске */
+}
+input[type="search"]:focus::placeholder{
+    color: transparent;
+    /* убрали в поиске буквы, сделали прозрачными при появлении мышки */
+}
+button{
+    border: 0;
+    background-color: transparent;
+    /* убрали у кнопки рамку и цвет */
+    cursor: pointer;
+    /* что бы была рука, а не курсор */
+}
+button:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+     /* убирает точки в списке li */
+    margin: 0;
+    padding: 0;
+}
+.content{
+    max-width: 1205px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin: 0 auto; */
+}
